@@ -52,13 +52,10 @@ Pretrained Embeddings:
 ====
 The pretrained character and word embeddings are the same with the embeddings in the baseline of [RichWordSegmentor](https://github.com/jiesutd/RichWordSegmentor)
 
-Character embeddings: [gigaword_chn.all.a2b.uni.ite50.vec](https://pan.baidu.com/s/1pLO6T9D)
-
-Character bigram embeddings: [gigaword_chn.all.a2b.bi.ite50.vec](https://pan.baidu.com/s/1pLO6T9D), same folder with character embeddings.
-
-Word embeddings: [ctb.50d.vec](https://pan.baidu.com/s/1pLO6T9D)
-
-Subword(BPE) embeddings: [zh.wiki.bpe.op200000.d50.w2v.txt](https://nlp.h-its.org/bpemb/zh/zh.wiki.bpe.vs200000.d50.w2v.txt.tar.gz)
+* Character embeddings: [gigaword_chn.all.a2b.uni.ite50.vec](https://pan.baidu.com/s/1pLO6T9D)
+* Character bigram embeddings: [gigaword_chn.all.a2b.bi.ite50.vec](https://pan.baidu.com/s/1pLO6T9D), same folder with character embeddings.
+* Word embeddings: [ctb.50d.vec](https://pan.baidu.com/s/1pLO6T9D)
+* Subword(BPE) embeddings: [zh.wiki.bpe.op200000.d50.w2v.txt](https://nlp.h-its.org/bpemb/zh/zh.wiki.bpe.vs200000.d50.w2v.txt.tar.gz)
 
 How to run the code?
 ====
