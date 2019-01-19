@@ -54,13 +54,15 @@ The pretrained character and word embeddings are the same with the embeddings in
 
 Character embeddings: [gigaword_chn.all.a2b.uni.ite50.vec](https://pan.baidu.com/s/1pLO6T9D)
 
+Character bigram embeddings: [gigaword_chn.all.a2b.bi.ite50.vec](https://pan.baidu.com/s/1pLO6T9D), same folder with character embeddings.
+
 Word embeddings: [ctb.50d.vec](https://pan.baidu.com/s/1pLO6T9D)
 
 Subword(BPE) embeddings: [zh.wiki.bpe.op200000.d50.w2v.txt](https://nlp.h-its.org/bpemb/zh/zh.wiki.bpe.vs200000.d50.w2v.txt.tar.gz)
 
 How to run the code?
 ====
-1. Download the character embeddings, character bigram embeddings, BPE (or word) embeddings and set their directories in `main.py`.
+1. Download the character embeddings, character bigram embeddings, BPE (or word) embeddings and set their directories in [`main.py`](https://github.com/jiesutd/SubwordEncoding-CWS/blob/41d6671ecac8209901f77001bf68d33b8b128e01/main.py#L395).
 2. Modify the `run_seg.py` by adding your train/dev/test file directory.
 3. `sh run_seg.py`
 
@@ -68,7 +70,7 @@ How to run the code?
 
 Cite: 
 ========
-Please cite our ACL 2018 paper:
+Cite our paper as:
 
     @article{yang2018subword,  
      title={Subword Encoding in Lattice LSTM for Chinese Word Segmentation},  
