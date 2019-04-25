@@ -52,9 +52,9 @@ Pretrained Embeddings:
 ====
 The pretrained character and word embeddings are the same with the embeddings in the baseline of [RichWordSegmentor](https://github.com/jiesutd/RichWordSegmentor)
 
-* Character embeddings: [gigaword_chn.all.a2b.uni.ite50.vec](https://pan.baidu.com/s/1pLO6T9D)
-* Character bigram embeddings: [gigaword_chn.all.a2b.bi.ite50.vec](https://pan.baidu.com/s/1pLO6T9D), same folder with character embeddings.
-* Word embeddings: [ctb.50d.vec](https://pan.baidu.com/s/1pLO6T9D)
+* Character embeddings (gigaword_chn.all.a2b.uni.ite50.vec): [Google Drive](https://drive.google.com/file/d/1_Zlf0OAZKVdydk7loUpkzD2KPEotUE8u/view?usp=sharing) or [Baidu Pan](https://pan.baidu.com/s/1pLO6T9D)
+* Character bigram embeddings (gigaword_chn.all.a2b.bi.ite50.vec): [Google Drive](https://drive.google.com/file/d/18KviwrhUSNkvHx55IOx80bcytALpojHk/view?usp=sharing) or [Baidu Pan](https://pan.baidu.com/s/1pLO6T9D)
+* Word embeddings (ctb.50d.vec): [Google Drive](https://drive.google.com/file/d/1K_lG3FlXTgOOf8aQ4brR9g3R40qi1Chv/view?usp=sharing) or [Baidu Pan](https://pan.baidu.com/s/1pLO6T9D)
 * Subword(BPE) embeddings: [zh.wiki.bpe.op200000.d50.w2v.txt](https://nlp.h-its.org/bpemb/zh/zh.wiki.bpe.vs200000.d50.w2v.txt.tar.gz)
 
 How to run the code?
@@ -69,9 +69,9 @@ Cite:
 ========
 Cite our paper as:
 
-    @article{yang2018subword,  
+    @article{yang2019subword,  
      title={Subword Encoding in Lattice LSTM for Chinese Word Segmentation},  
      author={Jie Yang, Yue Zhang, and Shuailong Liang},  
-     booktitle={Arxiv},
-     year={2018}  
+     booktitle={NAACL},
+     year={2019}  
     }
